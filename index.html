@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/png" href="./assets/images/panda.png"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynasty Dev</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload image
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      
+        <a href="https://discord.gg/gXbPRYzbaf" class="logo">Dynasty Dev</a>
+      
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Team</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>Bots</a>
+          </li>
+
+
+
+       
+
+        </ul>
+      </nav>
+<form action="https://discord.gg/gXbPRYzbaf">
+      <button class="btn btn-secondary">Join</button>
+</form>
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/logo.png"  loading="lazy" alt="hero banner"
+              class="w-100">
+          </figure>
+
+          <div class="hero-content">
+
+            <h2 class="h1 hero-title">Dynasty Dev</h2>
+
+            <p class="section-text">
+              Welcome to the Dynasty Dev server Our dedicated team is here to assist you with any questions or issues related to our bots. We're excited to make your experience enjoyable and help you get the most out of our services. .
+              Feel free to ask for assistance anytime, and let's have a fantastic time using Dynasty Dev Bots!" 🤖🎉
+            </p>
+<br>
+            <form action="https://discord.gg/gXbPRYzbaf" class="hero-form">
+          
+              <button type="submit" class="btn btn-primary">Join Now</button>
+            </form> 
+
+            
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+      
+      <script>
+        // Vanilla JavaScript AJAX request
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'team.html', true);
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState == 4 && xhr.status == 200) {
+            document.getElementById('teamContainer').innerHTML = xhr.responseText;
+          }
+        };
+        xhr.send();
+      </script>
+      
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features">
+        <div class="container">
+
+          <div class="features-content">
+
+            <h2 class="h2 section-title">Our Awesome Features To Serve You</h2>
+
+            <p class="section-text">
+              We make it easiest for you
+              through the different facilities 
+            </p>
+
+            <ul class="features-list">
+
+              <li class="features-item">
+                <img src="./assets/images/bot.png" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">Create any bot that serves you when you need it</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="./assets/images/suggestions.png" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">Accept your suggestions as well as constructive criticism</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="./assets/images/staff.png" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">Active Staff</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="./assets/images/panda.png" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">Collection of free bots</h3>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <h2 class="h2 section-title">Our Bots</h2>
+
+          <ul class="about-list">
+
+            <li>
+              <div class="about-card about-card-1">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/botbot.png" width="150" height="150" loading="lazy"
+                    alt="Automated Ticket Routing">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=1147922050065895444&permissions=8&scope=bot" class="card-title">Panda Bots</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Like Panda Bot which creates temporary voice channels, Panda Gems creates temporary voice channels
+                  </p>
+
+<!--                   <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-2">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/about-img-3.svg" width="150" height="150" loading="lazy"
+                    alt="Workflow Automation">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://discord.gg/b9VfrnE4AW" class="card-title"> Music Bots</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Discord Bots delivering your favorite tunes from SoundCloud, Spotify, and YouTube with seamless playback and versatile music commands   </p>
+
+<!--                   <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-3">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/bot.png" width="150" height="150" loading="lazy"
+                    alt="Custom Bots">
+                </figure>
+
+                <div class="card-content">
+
+                 <h3 class="h3">
+                    <a href="https://discord.gg/b9VfrnE4AW" class="card-title">Custom Bots</a>
+                  </h3>
+
+                   <p class="card-text">
+                    We do custom Discord bots you need it in your server
+                  </p>
+
+<!--                   <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-4">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/logo.png" width="150" height="150" loading="lazy"
+                    alt="Social Media support">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://discord.gg/b9VfrnE4AW" class="card-title">Dynasty</a>
+                  </h3>
+
+                    <p class="card-text">
+                      coming soon                  </p>
+
+<!--                   <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="section-text">
+            We do lots of new things make sure to
+            <a href="https://discord.gg/gXbPRYzbaf" class="btn-link">
+              <span class="span">join our server</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </p>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #SUPPORT
+      -->
+
+
+    </article>
+  </main>
+
+
+
+
+  <div id="teamContainer"></div>   
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 . All rights reserved by <span class="span">Dynasty Dev</span>
+          
+           
+        </p>
+
+        <ul class="footer-bottom-list">
+          <li>
+            <a href="https://discord.gg/gXbPRYzbaf" class="footer-bottom-link">Join Us</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
